@@ -31,7 +31,7 @@
 </div>
 
 <div>
-    HELLOOOOOOOOOOOO WORRRRRRRRRRRRRRRRRRRRRRRRLLLLLLLLDDDD
+   omg what the fuck is this
 </div>
 
 <div class="grey-section">
