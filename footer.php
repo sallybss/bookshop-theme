@@ -50,9 +50,6 @@ $about = get_field("about");
     
     <hr>
     
-    <div class="footer-logo">
-        <img src="<?php echo $logoimg["url"]; ?>" alt="Company Logo">
-    </div>
 </footer>
 
 
