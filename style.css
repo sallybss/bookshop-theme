@@ -4,309 +4,304 @@ Author: Sali Anna Aimilia
 */
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  /* background-color: #f4f4f4; */
+  background-color: #ed1590;
 }
 
 a {
-    text-decoration: none;
-    color: inherit; 
+  text-decoration: none;
+  color: inherit;
 }
 
 a:hover {
-    color: #ED1590; 
+  color: #ed1590;
 }
 
 .banner {
-    background-color:#d4ff00 ;  
+  background-color: #d4ff00;
 
-    width: 100%;
+  width: 100%;
 }
 
 .banner p {
-    text-align: center  ;
+  text-align: center;
 }
 
 .nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
 }
 
 .nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
+  list-style: none;
+  display: flex;
+  gap: 20px;
 }
 
 .nav ul li {
-    color: rgb(26, 25, 25);
-    cursor: pointer;
-    text-transform: uppercase; 
-
+  color: rgb(26, 25, 25);
+  cursor: pointer;
+  text-transform: uppercase;
 }
 
 .nav ul li:hover {
-    color: #ED1590;
+  color: #ed1590;
 }
 
 .nav .logo img {
-    width: 80px;
-    height: auto; 
+  width: 80px;
+  height: auto;
 }
 
 .nav ul li.icon {
-    width: 20px;
-    height: 20px;
-    background-color: rgb(36, 34, 34);
-    display: inline-block;
-    border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: rgb(36, 34, 34);
+  display: inline-block;
+  border-radius: 50%;
 }
 
 .nav .logo img {
-    width: 100px; 
-    height: auto; 
+  width: 100px;
+  height: auto;
 }
 
 .hero {
-    background-size: cover; 
-    background-position: center; 
-    width: 100%;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
 }
 
 .text-hero {
-    text-align: center;
-    padding: 10%;
-    background-color: #f4f4f4;
-    
+  text-align: center;
+  padding: 10%;
+  background-color: #f4f4f4;
 }
 
 .text-hero h1 {
-    font-weight: bold;
-    font-size: 80px;
+  font-weight: bold;
+  font-size: 80px;
 }
 
-.text-hero p{
-    font-size: 30px;
+.text-hero p {
+  font-size: 30px;
 }
 
 .latest-release {
-    text-align: center;
-    padding: 50px 0;
-    background-color: #f4f4f4; 
+  text-align: center;
+  padding: 50px 0;
+  background-color: #f4f4f4;
 }
 
 .latest-release h1 {
-    font-size: 36px;
-    margin-bottom: 40px;
-    color: #333; 
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #333;
 }
 
 .carousel {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    height: 204px; 
-    width: 1007px;
-    overflow: hidden; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 204px;
+  width: 1007px;
+  overflow: hidden;
 }
 
 .carousel-item {
-    flex: 0 0 auto; 
-    width: 200px;
-    height: 204px; 
-    background-color: #f0f0f0; 
+  flex: 0 0 auto;
+  width: 200px;
+  height: 204px;
+  background-color: #f0f0f0;
 }
 
 .carousel-item img {
-    width: 100%; 
-    height: 100%; 
-    object-fit: cover; 
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .carousel-item img:hover {
-    transform: scale(1.1); 
+  transform: scale(1.1);
 }
 
 .grey-section {
-    background-color: #e0e0e0;
+  background-color: #e0e0e0;
 }
 
 .grey-section .content {
-    display: flex;
-    align-items: center;
-    max-width: 1200px; 
-    margin: auto; 
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
 }
 
 .grey-section .image img {
-    width: 80%;
-    max-width: 500px; 
+  width: 80%;
+  max-width: 500px;
 }
 
 .grey-section .text {
-    max-width: 600px; 
+  max-width: 600px;
 }
 
 .grey-section .text h2 {
-    font-size: 32px;
-    color: #333; 
-    margin-bottom: 20px;
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 20px;
 }
 
 .grey-section .text p {
-    font-size: 18px;
-    color: #555; 
-    line-height: 1.6;
+  font-size: 18px;
+  color: #555;
+  line-height: 1.6;
 }
 
 .sale-section {
-    background-color: #d4ff00;
-    padding: 50px 20px; 
-    text-align: center;  
-    margin-bottom: 50px; 
-
-       
+  background-color: #d4ff00;
+  padding: 50px 20px;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 .sale-section .text-section h1 {
-    font-size: 200px; 
-    font-weight: bold; 
-    color: #333; 
-    margin-bottom: 20px; 
+  font-size: 200px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
 }
 
 .sale-section .text-section p {
-    font-size: 35px; 
-    font-weight: bold; 
-    color: #333; 
-    margin-bottom: 6px;
+  font-size: 35px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 6px;
 }
 
 .sale-section .small-text p {
-    font-size: 17px;
-    font-weight: 300; 
-    color: #666; 
+  font-size: 17px;
+  font-weight: 300;
+  color: #666;
 }
 
-
 .pink-section {
-    background-color: #ED1590; 
-   
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: left;
+  background-color: #ed1590;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
 }
 
 .pink-section .content-pink {
-    display: flex;
-    align-items: center;
-    max-width: 1200px; 
-    margin: auto; 
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
 }
 
 .pink-section .image img {
-    width: 80%;
-    max-width: 500px; 
+  width: 80%;
+  max-width: 500px;
 }
 
 .pink-section .text {
-    max-width: 600px;
+  max-width: 600px;
 }
 
 .pink-section .text h1 {
-    font-size: 34px; 
-    font-weight: bold;
-    color: #fff; 
-    margin-bottom: 40px; 
+  font-size: 34px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 40px;
 }
 
 .pink-section .text p {
-    font-size: 24px; 
-    color: #fff; 
-    margin-bottom: 40px; 
-
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 40px;
 }
 
 .pink-section .text button {
-    background-color: #fff; 
-    color: #ED1590; 
-    padding: 15px 30px; 
-    border: none;
-    font-size: 18px;
-    font-weight: bold;
-    cursor: pointer;
-    border-radius: 5px; 
-    transition: background-color 0.3s ease;
+  background-color: #fff;
+  color: #ed1590;
+  padding: 15px 30px;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
 }
 
 .pink-section .text button:hover {
-    background-color: #333; 
-    color: #fff; 
+  background-color: #333;
+  color: #fff;
 }
 
 .centered-image {
-    text-align: center; 
-    padding: 50px 0;  
-    background-color: #f4f4f4; 
+  text-align: center;
+  padding: 50px 0;
+  background-color: #f4f4f4;
 }
 
 .centered-image img {
-    max-width: 13%;     
-    height: auto;        
+  max-width: 13%;
+  height: auto;
 }
 
 footer {
-    background-color: #f4f4f4;
-    padding: 50px 20px;
+  background-color: #f4f4f4;
+  padding: 50px 20px;
 }
 
 .footer-container {
-    display: flex;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .footer-column {
-    flex: 1;
-    padding: 0 20px;
+  flex: 1;
+  padding: 0 20px;
 }
 
 .footer-column h3 {
-    font-size: 18px;
-    margin-bottom: 20px;
-    color: #333;
-    text-transform: uppercase;
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #333;
+  text-transform: uppercase;
 }
 
 .footer-column ul {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 .footer-column ul li {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .footer-column ul li a {
-    text-decoration: none;
-    color: #555;
-    font-size: 14px;
-    transition: color 0.3s ease;
+  text-decoration: none;
+  color: #555;
+  font-size: 14px;
+  transition: color 0.3s ease;
 }
 
 .footer-column ul li a:hover {
-    color: #ED1590;
+  color: #ed1590;
 }
 
 /* .footer-column wpcf7 {
@@ -326,53 +321,53 @@ footer {
 
 /* Style the email input field */
 .wpcf7-form-control.wpcf7-text {
-    width: 100%; /* Ensure it fills the width of the container */
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 14px;
-    color: #333;
-    margin-bottom: 10px;
+  width: 100%; /* Ensure it fills the width of the container */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 10px;
 }
 
 /* Placeholder color */
 .wpcf7-form-control.wpcf7-text::placeholder {
-    color: #aaa; /* Customize placeholder text color */
+  color: #aaa; /* Customize placeholder text color */
 }
 
 /* On focus, change the border color for better UX */
 .wpcf7-form-control.wpcf7-text:focus {
-    border-color: #ED1590; /* Your desired focus color */
-    outline: none; /* Remove default outline */
+  border-color: #ed1590; /* Your desired focus color */
+  outline: none; /* Remove default outline */
 }
 
 .wpcf7-submit {
-    padding: 10px;
-    background-color: #ED1590;
-    border: none;
-    color: white;
-    font-size: 14px;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
+  padding: 10px;
+  background-color: #ed1590;
+  border: none;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
 }
 
 .wpcf7-submit:hover {
-    background-color: #333;
+  background-color: #333;
 }
 
 hr {
-    border: none;
-    border-top: 1px solid #ccc;
-    margin: 40px 0;
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 40px 0;
 }
 
 .footer-logo {
-    text-align: left;
-    padding: 20px 0;
+  text-align: left;
+  padding: 20px 0;
 }
 
 .footer-logo img {
-    width: 100px;
-    height: auto;
+  width: 100px;
+  height: auto;
 }
