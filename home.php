@@ -14,11 +14,35 @@
             ?>
             
             <!-- Author: <a href="mailto:<?php echo $mail ?>"><?php echo $author; ?></a> -->
-             <section class="hero d-flex justify-content-center align-items-center">
-  <div class="grid-box text-center">
-    <h1 class="display-1">Design Hub</h1>
+        <!-- Hero Section with Responsive Grid -->
+<section class="hero d-flex justify-content-center align-items-center">
+  <div class="grid-box">
+    <div class="row gx-3 gy-3">
+      <!-- Grid Cells -->
+      <div class="col-6 col-md-3 grid-cell"></div>
+      <div class="col-6 col-md-3 grid-cell"></div>
+      <div class="col-6 col-md-3 grid-cell"></div>
+      <div class="col-6 col-md-3 grid-cell"></div>
+
+      <div class="col-6 col-md-3 grid-cell"></div>
+      <div class="col-6 col-md-3 grid-cell"></div>
+      
+      <!-- Centered Text -->
+      <div class="col-12 col-md-6 grid-cell d-flex justify-content-center align-items-center">
+        <h1 class="display-1 text-center">Design Hub</h1>
+      </div>
+
+      <div class="col-6 col-md-3 grid-cell"></div>
+      <div class="col-6 col-md-3 grid-cell"></div>
+      
+      <div class="col-6 col-md-3 grid-cell"></div>
+      <div class="col-6 col-md-3 grid-cell"></div>
+      <div class="col-6 col-md-3 grid-cell"></div>
+      <div class="col-6 col-md-3 grid-cell"></div>
+    </div>
   </div>
 </section>
+
             <div class="post">
                 <h1><?php echo $title; ?></h2>
                 <p><?php echo $excerpt; ?></p>

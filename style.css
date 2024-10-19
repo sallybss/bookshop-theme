@@ -340,3 +340,49 @@ hr {
   width: 100px;
   height: auto;
 }
+
+/* Hero Section Styling */
+.hero {
+  height: 100vh; /* Full screen height */
+  background-image: url("your-hero-image.jpg"); /* Add your hero image */
+  background-size: cover;
+  background-position: center;
+}
+
+/* Grid Box Styling */
+.grid-box {
+  width: 90%; /* Responsive width */
+  max-width: 1200px;
+  display: grid;
+  gap: 10px; /* Space between grid cells */
+}
+
+/* Grid Cells Styling */
+.grid-cell {
+  height: 150px; /* Default cell height */
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* Light background for grid cells */
+  border: 1px solid #ddd;
+}
+
+/* Typography for Heading */
+h1 {
+  color: #333;
+}
+
+/* Responsive Heading Sizes */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+}
