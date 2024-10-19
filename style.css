@@ -341,16 +341,26 @@ hr {
   height: auto;
 }
 
-/* Targeting h1 within .design-hub when body has class 'blog' */
-.blog h1 {
-  color: #da0000; /* Text color */
-  font-size: 3rem; /* Font size */
-  margin-bottom: 100px; /* Space below */
+/* Targeting unique classes for h1 and h2 */
+body.blog .design-hub-title {
+  color: #333;
+  font-size: 3rem;
+  margin-bottom: 20px;
 }
 
-/* Targeting h2 within .design-hub when body has class 'blog' */
-.blog h2 {
-  color: #990000; /* Text color */
-  font-size: 1.5rem; /* Font size */
-  line-height: 1.6; /* Line height for better readability */
+body.blog .design-hub-subtitle {
+  color: #666;
+  font-size: 1.5rem;
+  line-height: 1.6;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  body.blog .design-hub-title {
+    font-size: 2.5rem;
+  }
+
+  body.blog .design-hub-subtitle {
+    font-size: 1.2rem;
+  }
 }
