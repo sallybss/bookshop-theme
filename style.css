@@ -342,7 +342,7 @@ hr {
 }
 
 /* Targeting the h1 within .design-hub when body has class 'blog' */
-body.blog .design-hub h1.display-1 {
+.blog .design-hub h1 {
   /* Your CSS styles for h1 */
   color: #333;
   font-size: 3rem;
@@ -350,7 +350,7 @@ body.blog .design-hub h1.display-1 {
 }
 
 /* Targeting the h2 within .design-hub when body has class 'blog' */
-body.blog .design-hub h2 {
+.blog .design-hub h2 {
   /* Your CSS styles for h2 */
   color: #666;
   font-size: 1.5rem;
