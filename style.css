@@ -342,7 +342,7 @@ hr {
 }
 
 /* Targeting unique classes for h1 and h2 */
-body.blog .design-hub-title {
+body.blog .content .design-hub-title {
   color: #cf0000;
   font-size: 3rem;
   margin-bottom: 20px;
