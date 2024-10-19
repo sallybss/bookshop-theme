@@ -17,7 +17,7 @@
 <div class="container">
   <div class="row">
     <!-- Left Column: Design Hub Title and Subtitle -->
-    <div class="col-lg-6 d-flex flex-column align-items-center justify-content-center design-hub-container">
+    <div class="col-lg-6 d-flex flex-column align-items-center justify-content-center">
       <h1 class="design-hub-title">DESIGN HUB</h1>
       <h2 class="design-hub-text">Welcome to design hub</h2>
     </div>
@@ -28,6 +28,7 @@
     </div>
   </div>
 </div>
+
 
             <div class="post">
                 <h1><?php echo $title; ?></h2>

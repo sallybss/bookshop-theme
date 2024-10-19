@@ -342,7 +342,7 @@ hr {
 }
 
 /* Styles for the <h1> within .design-hub-title */
-.design-hub-container .design-hub-title h1 {
+.design-hub-title h1 {
   color: #333333; /* Dark gray color for the main title */
   font-size: 80px; /* Large font size */
   font-weight: 500; /* Medium font weight */
@@ -352,43 +352,10 @@ hr {
 }
 
 /* Styles for the <h2> within .design-hub-text */
-.design-hub-container .design-hub-text h2 {
+.design-hub-text h2 {
   color: #666666; /* Medium gray color for the subtitle */
   font-size: 24px; /* Desired font size */
   line-height: 1.6; /* Improves readability */
   margin-bottom: 30px; /* Space below the <h2> */
   text-align: center; /* Center the text */
-}
-
-/* Add a black border around the .design-hub-container div with sharp edges */
-.blog .design-hub-container {
-  border: 2px solid black; /* Black border with 2px thickness */
-  padding: 20px; /* Adds space inside the div */
-  border-radius: 0; /* Ensures sharp edges */
-}
-
-/* Responsive Adjustments for Smaller Screens */
-@media (max-width: 768px) {
-  /* Adjust <h1> font size on tablets and below */
-  body.blog .design-hub-container .design-hub-title {
-    font-size: 60px; /* Smaller font size */
-    padding: 0 10px; /* Optional: Add horizontal padding if needed */
-  }
-
-  /* Adjust <h2> font size on tablets and below */
-  body.blog .design-hub-container .design-hub-text {
-    font-size: 18px; /* Smaller font size */
-    padding: 0 10px; /* Optional: Add horizontal padding if needed */
-  }
-
-  /* Adjust border padding on smaller screens */
-  body.blog .design-hub-container {
-    padding: 15px; /* Reduced padding */
-  }
-
-  /* Optional: Adjust image size on smaller screens */
-  body.blog .heroimage img {
-    width: 100%; /* Make image responsive */
-    max-width: 300px; /* Set a max width for the image */
-  }
 }
