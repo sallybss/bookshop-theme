@@ -30,6 +30,9 @@
     <p><?php echo  $intro; ?></p>
 </div>
 
+<h1>
+    HELLO WORLD
+</h1>
 
 <div class="grey-section">
         <div class="content">
