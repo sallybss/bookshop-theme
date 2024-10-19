@@ -105,7 +105,7 @@ a:hover {
 .latest-release h1 {
   font-size: 36px;
   margin-bottom: 40px;
-  color: #ff0000;
+  color: #090101;
 }
 
 .grey-section .content {
@@ -164,7 +164,7 @@ a:hover {
 }
 
 .pink-section {
-  background-color: #ed1590;
+  background-color: #6bed15;
 
   display: flex;
   justify-content: center;
