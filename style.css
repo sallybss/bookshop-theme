@@ -355,3 +355,10 @@ hr {
   font-weight: 200;
   font-style: italic;
 }
+
+.blog .post h1 {
+  color: #333;
+  font-size: 50px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
