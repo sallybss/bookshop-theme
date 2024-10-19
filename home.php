@@ -14,14 +14,17 @@
             ?>
             
             <!-- Author: <a href="mailto:<?php echo $mail ?>"><?php echo $author; ?></a> -->
- <div class="d-flex justify-content-center align-items-center">
-  
-    <div class="design-hub-title text-center">
-        <h1> Design Hub</h1></div>
-    <div class="design-hub-subtitle">
-        <h2>Welcome to our Design Hub. Here you can find book recommendations, podcasts, and the latest news about Design.</h2>
+<div class="container">
+    <div class="row">
+            <div class="col-lg-6 d-flex flex-column align-items-center justify-content-center">
+        <h1 class="design-hub-title"> DESIGN HUB </h1>
+        <h2 class="design-hub-text"> Welcome to design hub</h2>
+            </div>
+            
+                <div class="col-lg-6 heroimage text-end">
+             <img src="<?php echo $heroimage["url"]; ?>" alt="" class="img-fluid heroimage" width="650">
+                </div>
     </div>
-  
 </div>
             <div class="post">
                 <h1><?php echo $title; ?></h2>
