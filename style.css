@@ -342,14 +342,14 @@ hr {
 }
 
 /* Targeting h1 within .design-hub when body has class 'blog' */
-body.blog .design-hub h1 {
+body.blog h1 {
   color: #da0000; /* Text color */
   font-size: 3rem; /* Font size */
   margin-bottom: 20px; /* Space below */
 }
 
 /* Targeting h2 within .design-hub when body has class 'blog' */
-body.blog .design-hub h2 {
+body.blog h2 {
   color: #990000; /* Text color */
   font-size: 1.5rem; /* Font size */
   line-height: 1.6; /* Line height for better readability */

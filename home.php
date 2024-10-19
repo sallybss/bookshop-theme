@@ -16,7 +16,7 @@
             <!-- Author: <a href="mailto:<?php echo $mail ?>"><?php echo $author; ?></a> -->
   <div class="design-hub d-flex justify-content-center align-items-center">
     <div class="text-center">
-      <h1 class="display-1">Design Hub</h1>
+      <h1>Design Hub</h1>
       <h2>Welcome to our Design Hub. Here you can find book recommendations, podcasts, and the latest news about Design.</h2>
     </div>
   </div>
