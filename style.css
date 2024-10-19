@@ -348,3 +348,10 @@ hr {
   border: #333 solid 2px;
   padding: 20px;
 }
+
+.blog .desgn-hub-text {
+  color: #333;
+  font-size: 30px;
+  font-weight: 200;
+  font-style: italic;
+}
