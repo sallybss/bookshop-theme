@@ -356,10 +356,17 @@ hr {
   font-style: italic;
 }
 
-.blog .card-title h1 {
-  color: #ff0000;
-  font-size: 30px;
-  font-weight: 500;
-  margin: 20px;
-  padding: 10px;
+.blog .custom-card {
+  margin: 20px; /* Add margin around the card */
+  padding: 15px; /* Add padding inside the card */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add a box shadow for better visual appearance */
+}
+
+.blog .custom-card .card-body {
+  padding: 20px; /* Adjust the padding specifically for the card body */
+}
+
+.blog .custom-card .card-body .card-title {
+  font-size: 1.75rem; /* Larger font for the title */
+  color: #333; /* Set a custom color for the title */
 }
