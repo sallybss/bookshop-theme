@@ -341,29 +341,32 @@ hr {
   height: auto;
 }
 
-/* Targeting unique classes for h1 and h2 */
-body.blog .content .design-hub-title {
-  color: #333;
-  font-size: 3rem;
+/* Using IDs for higher specificity */
+#design-hub-title h1 {
+  color: #333333;
+  font-size: 80px;
+  font-weight: 500;
+  text-transform: uppercase;
   margin-bottom: 20px;
-  max-width: 80%;
-  max-height: fit-content;
-  border: #333 solid 1px;
+  border: 2px solid black;
+  padding: 10px 20px;
 }
 
-body.blog .design-hub-subtitle {
-  color: #333;
-  font-size: 1.5rem;
+#design-hub-subtitle h2 {
+  color: #666666;
+  font-size: 24px;
   line-height: 1.6;
+  margin-bottom: 30px;
 }
 
-/* Responsive adjustments */
+/* Responsive Adjustments */
 @media (max-width: 768px) {
-  body.blog .design-hub-title {
-    font-size: 2.5rem;
+  #design-hub-title h1 {
+    font-size: 60px;
+    padding: 8px 16px;
   }
 
-  body.blog .design-hub-subtitle {
-    font-size: 1.2rem;
+  #design-hub-subtitle h2 {
+    font-size: 18px;
   }
 }
