@@ -341,6 +341,7 @@ hr {
   height: auto;
 }
 
-body.blog .design-hub-title {
+.blog .design-hub-title {
   color: #ffcc00;
+  font-size: 100px;
 }
