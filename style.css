@@ -343,13 +343,13 @@ hr {
 
 /* Targeting unique classes for h1 and h2 */
 body.blog .design-hub-title {
-  color: #333;
+  color: #cf0000;
   font-size: 3rem;
   margin-bottom: 20px;
 }
 
 body.blog .design-hub-subtitle {
-  color: #666;
+  color: #ff00bf;
   font-size: 1.5rem;
   line-height: 1.6;
 }
