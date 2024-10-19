@@ -345,7 +345,7 @@ hr {
 body.blog h1 {
   color: #da0000; /* Text color */
   font-size: 3rem; /* Font size */
-  margin-bottom: 20px; /* Space below */
+  margin-bottom: 100px; /* Space below */
 }
 
 /* Targeting h2 within .design-hub when body has class 'blog' */
