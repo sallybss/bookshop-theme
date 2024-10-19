@@ -26,9 +26,10 @@
   </div>
 </div>
 
+<img src="images/hero2.jpeg" alt="">
 
             <div class="post">
-                <h1><?php echo $title; ?></h2>
+                <h1><?php echo $title; ?></h1>
                 <p><?php echo $excerpt; ?></p>
                 <a href="<?php echo $url; ?>">Read more</a>
             </div>
