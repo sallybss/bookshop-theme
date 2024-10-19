@@ -345,5 +345,6 @@ hr {
   color: #333;
   font-size: 150px;
   font-weight: 400;
-  border: #333 solid 1px;
+  border: #333 solid 2px;
+  padding: 20px;
 }
