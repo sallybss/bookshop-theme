@@ -342,17 +342,17 @@ hr {
 }
 
 /* Targeting the h1 within .design-hub when body has class 'blog' */
-.blog .design-hub h1 {
+body.blog .design-hub h1.display-1 {
   /* Your CSS styles for h1 */
-  color: #333;
+  color: #e4076e;
   font-size: 3rem;
   margin-bottom: 20px;
 }
 
 /* Targeting the h2 within .design-hub when body has class 'blog' */
-.blog .design-hub h2 {
+body.blog .design-hub h2 {
   /* Your CSS styles for h2 */
-  color: #666;
+  color: #df0000;
   font-size: 1.5rem;
   line-height: 1.6;
 }
