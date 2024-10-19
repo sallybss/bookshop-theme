@@ -23,8 +23,11 @@ function avrtikl_register_menus() {
 }
 add_action( 'after_setup_theme', 'avrtikl_register_menus' );
 
+/*
 function theme_enqueue_scripts() {
     wp_enqueue_style('your-style', get_template_directory_uri() . '/css/your-style.css');
     wp_enqueue_script('your-script', get_template_directory_uri() . '/js/your-script.js', array('jquery'), null, true);
 }
 add_action('wp_enqueue_scripts', 'theme_enqueue_scripts');
+*/
+
