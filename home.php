@@ -14,7 +14,11 @@
             ?>
             
             <!-- Author: <a href="mailto:<?php echo $mail ?>"><?php echo $author; ?></a> -->
-             
+             <section class="hero d-flex justify-content-center align-items-center">
+  <div class="grid-box text-center">
+    <h1 class="display-1">Design Hub</h1>
+  </div>
+</section>
             <div class="post">
                 <h1><?php echo $title; ?></h2>
                 <p><?php echo $excerpt; ?></p>
