@@ -42,5 +42,15 @@
             <?php endif; ?>
         </div>
     </div>
+
+    <!-- Spotify Playlist Section -->
+    <div class="row my-5">
+        <div class="col d-flex justify-content-center">
+            <div class="embed-responsive embed-responsive-16by9" style="max-width: 600px; width: 100%;">
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3SdukUsvVBUwzbS3Mv69TM?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </div>
+        </div>
+    </div>
 </div>
 <?php get_footer(); ?>
+
