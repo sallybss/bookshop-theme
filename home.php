@@ -23,7 +23,7 @@
     </div>
     
     <!-- Right Column: Hero Image -->
-    <div class="col-lg-6 heroimage text-end">
+    <div class="col-lg-6 d-flex">
       <img src="<?php echo $heroimage['url']; ?>" alt="Hero Image" class="img-fluid" width="650">
     </div>
   </div>
