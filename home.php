@@ -13,7 +13,8 @@
             $mail = get_the_author_email();
             ?>
             
-            Author: <a href="mailto:<?php echo $mail ?>"><?php echo $author; ?></a>
+            <!-- Author: <a href="mailto:<?php echo $mail ?>"><?php echo $author; ?></a> -->
+             
             <div class="post">
                 <h1><?php echo $title; ?></h2>
                 <p><?php echo $excerpt; ?></p>

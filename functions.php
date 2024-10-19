@@ -10,7 +10,6 @@ add_action("wp_enqueue_scripts", "bookshop_load_resources");
 
 
 function bookshop_remove_gutenberg(){
-
     remove_post_type_support("page", "editor");
 }
 add_action("init", "bookshop_remove_gutenberg");
