@@ -341,18 +341,16 @@ hr {
   height: auto;
 }
 
-/* Targeting the h1 within .design-hub when body has class 'blog' */
-body.blog .design-hub h1.display-1 {
-  /* Your CSS styles for h1 */
-  color: #e4076e;
-  font-size: 3rem;
-  margin-bottom: 20px;
+/* Targeting h1 within .design-hub when body has class 'blog' */
+body.blog .design-hub h1 {
+  color: #da0000; /* Text color */
+  font-size: 3rem; /* Font size */
+  margin-bottom: 20px; /* Space below */
 }
 
-/* Targeting the h2 within .design-hub when body has class 'blog' */
+/* Targeting h2 within .design-hub when body has class 'blog' */
 body.blog .design-hub h2 {
-  /* Your CSS styles for h2 */
-  color: #df0000;
-  font-size: 1.5rem;
-  line-height: 1.6;
+  color: #990000; /* Text color */
+  font-size: 1.5rem; /* Font size */
+  line-height: 1.6; /* Line height for better readability */
 }
