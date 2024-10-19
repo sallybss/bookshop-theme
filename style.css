@@ -342,7 +342,7 @@ hr {
 }
 
 /* Styles for the <h1> within .design-hub-title */
-body.blog .design-hub-container .design-hub-title {
+.blog .design-hub-container .design-hub-title {
   color: #333333; /* Dark gray color for the main title */
   font-size: 80px; /* Large font size */
   font-weight: 500; /* Medium font weight */
@@ -352,7 +352,7 @@ body.blog .design-hub-container .design-hub-title {
 }
 
 /* Styles for the <h2> within .design-hub-text */
-body.blog .design-hub-container .design-hub-text {
+.blog .design-hub-container .design-hub-text {
   color: #666666; /* Medium gray color for the subtitle */
   font-size: 24px; /* Desired font size */
   line-height: 1.6; /* Improves readability */
@@ -361,7 +361,7 @@ body.blog .design-hub-container .design-hub-text {
 }
 
 /* Add a black border around the .design-hub-container div with sharp edges */
-body.blog .design-hub-container {
+.blog .design-hub-container {
   border: 2px solid black; /* Black border with 2px thickness */
   padding: 20px; /* Adds space inside the div */
   border-radius: 0; /* Ensures sharp edges */
