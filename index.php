@@ -30,9 +30,6 @@
     <p><?php echo  $intro; ?></p>
 </div>
 
-<h1>
-    DONT KNOW
-</h1>
 
 <div class="grey-section">
         <div class="content">
