@@ -342,7 +342,7 @@ hr {
 }
 
 /* Styles for the <h1> within .design-hub-title */
-.blog .design-hub-container .design-hub-title {
+.design-hub-container .design-hub-title h1 {
   color: #333333; /* Dark gray color for the main title */
   font-size: 80px; /* Large font size */
   font-weight: 500; /* Medium font weight */
@@ -352,7 +352,7 @@ hr {
 }
 
 /* Styles for the <h2> within .design-hub-text */
-.blog .design-hub-container .design-hub-text {
+.design-hub-container .design-hub-text h2 {
   color: #666666; /* Medium gray color for the subtitle */
   font-size: 24px; /* Desired font size */
   line-height: 1.6; /* Improves readability */
