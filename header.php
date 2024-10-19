@@ -4,8 +4,7 @@
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php bloginfo('name'); ?></title>
-    <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+   
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
