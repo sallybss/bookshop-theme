@@ -14,10 +14,12 @@
             ?>
             
             <!-- Author: <a href="mailto:<?php echo $mail ?>"><?php echo $author; ?></a> -->
- <div class="design-hub d-flex justify-content-center align-items-center">
+ <div class="d-flex justify-content-center align-items-center">
   <div class="text-center">
-    <h1 class="design-hub-title">Design Hub</h1>
-    <h2 class="design-hub-subtitle">Welcome to our Design Hub. Here you can find book recommendations, podcasts, and the latest news about Design.</h2>
+    <div class="design-hub-title">
+        <h1> Design Hub</h1></div>
+    <div class="design-hub-subtitle">
+        <h2>Welcome to our Design Hub. Here you can find book recommendations, podcasts, and the latest news about Design.</h2></div>
   </div>
 </div>
             <div class="post">

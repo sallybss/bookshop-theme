@@ -341,26 +341,47 @@ hr {
   height: auto;
 }
 
-/* Targeting unique classes for h1 and h2 */
-body.blog .content .design-hub-title {
-  color: #cf0000;
-  font-size: 3rem;
-  margin-bottom: 20px;
+/* Styles for the <h1> within .design-hub-title when body has class 'blog' */
+body.blog .design-hub-title h1 {
+  color: #333333; /* Dark gray color for the main title */
+  font-size: 80px; /* Desired font size */
+  font-weight: 500; /* Medium font weight */
+  margin-bottom: 20px; /* Space below the <h1> */
+  text-transform: uppercase; /* Transforms text to uppercase */
+  /* Additional styles can be added here */
 }
 
-body.blog .design-hub-subtitle {
-  color: #ff00bf;
-  font-size: 1.5rem;
-  line-height: 1.6;
+/* Styles for the <h2> within .design-hub-subtitle when body has class 'blog' */
+body.blog .design-hub-subtitle h2 {
+  color: #666666; /* Medium gray color for the subtitle */
+  font-size: 24px; /* Desired font size */
+  line-height: 1.6; /* Improves readability */
+  margin-bottom: 30px; /* Space below the <h2> */
+  /* Additional styles can be added here */
 }
 
-/* Responsive adjustments */
+/* Add a black border around the .design-hub-title div with sharp edges */
+body.blog .design-hub-title {
+  border: 2px solid black; /* Black border with 2px thickness */
+  padding: 10px 20px; /* Adds space inside the div */
+  /* Sharp edges by default; no border-radius */
+  /* Optional: Add background color or other styles if needed */
+}
+
+/* Responsive Adjustments for Smaller Screens */
 @media (max-width: 768px) {
-  body.blog .design-hub-title {
-    font-size: 2.5rem;
+  /* Adjust <h1> font size on tablets and below */
+  body.blog .design-hub-title h1 {
+    font-size: 60px; /* Smaller font size */
   }
 
-  body.blog .design-hub-subtitle {
-    font-size: 1.2rem;
+  /* Adjust <h2> font size on tablets and below */
+  body.blog .design-hub-subtitle h2 {
+    font-size: 18px; /* Smaller font size */
+  }
+
+  /* Adjust border padding on smaller screens */
+  body.blog .design-hub-title {
+    padding: 8px 16px; /* Reduced padding */
   }
 }
