@@ -393,7 +393,6 @@ body.blog .card-body .btn:hover {
 
 body.blog .img-small {
   width: 100%; /* Allow the image to retain its original width */
-  max-width: 150px; /* Set a maximum width to match the thumbnail size */
   height: auto; /* Maintain aspect ratio */
   display: block; /* Ensures the image is treated as a block element */
   margin: 20px 20px 20px 0; /* Optional: centers the image horizontally and adds some spacing below */
