@@ -18,11 +18,14 @@
             <img src="hero2.jpeg" alt="Hero Image" class="img-fluid">
         </div>
     </div>
+      <?php endwhile; ?>
+        <?php endif; ?>
 
     <!-- Content Section -->
     <div class="content">
         <div class="row">
-          
+            <?php if (have_posts()): ?>
+                <?php while (have_posts()): the_post(); ?>
                     <?php
                         $url = get_permalink();
                         $title = get_the_title();
