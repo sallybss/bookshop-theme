@@ -1,6 +1,5 @@
 
 <?php get_header(); ?>
-
 <div class="container">
     <!-- Design Hub Section -->
     <div class="row my-5">
