@@ -386,7 +386,7 @@ body.blog .card-body .btn {
   transition: 0.3s ease-in-out;
 }
 
-.btn:hover {
-  background: white;
+body.blog .card-body .btn:hover {
+  background: #ffffff;
   color: #ff119e;
 }
