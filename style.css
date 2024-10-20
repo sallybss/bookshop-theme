@@ -376,7 +376,7 @@ body.blog .card-body .btn {
   background: white;
   border-radius: 4px;
   color: #ed1590;
-  font-size: 10px;
+  font-size: 20px;
   line-height: 27px;
   padding: 12px 20px;
   font-family: "Inter", sans-serif;
@@ -386,7 +386,7 @@ body.blog .card-body .btn {
   transition: 0.3s ease-in-out;
 }
 
-.btn:hover {
+body.blog .card--body .btn:hover {
   background: #ed1590;
   color: white;
 }
