@@ -1,5 +1,7 @@
 
 <?php get_header(); ?>
+  <?php if (have_posts()): ?>
+                <?php while (have_posts()): the_post(); ?>
 <div class="container">
     <!-- Design Hub Section -->
     <div class="row my-5">
@@ -20,8 +22,7 @@
     <!-- Content Section -->
     <div class="content">
         <div class="row">
-            <?php if (have_posts()): ?>
-                <?php while (have_posts()): the_post(); ?>
+          
                     <?php
                         $url = get_permalink();
                         $title = get_the_title();
