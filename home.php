@@ -1,7 +1,6 @@
 
 <?php get_header(); ?>
-  <?php if (have_posts()): ?>
-                <?php while (have_posts()): the_post(); ?>
+
 <div class="container">
     <!-- Design Hub Section -->
     <div class="row my-5">
@@ -18,8 +17,6 @@
             <img src="hero2.jpeg" alt="Hero Image" class="img-fluid">
         </div>
     </div>
-      <?php endwhile; ?>
-        <?php endif; ?>
 
     <!-- Content Section -->
     <div class="content">
