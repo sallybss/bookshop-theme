@@ -37,7 +37,7 @@
                             <h5 class="card-title"><?php echo esc_html($title); ?></h5>
                                <!-- Card Image (Featured Image) -->
                         <?php if (has_post_thumbnail()) : ?>
-                            <img class="card-img-top img-fluid" src="<?php the_post_thumbnail_url('medium'); ?>" alt="<?php echo esc_attr($title); ?>">
+                            <img class="card-img-top img-fluid img-small" src="<?php the_post_thumbnail_url('thumbnail'); ?>" alt="<?php echo esc_attr($title); ?>">
                         <?php endif; ?>
                             <p class="card-text"><?php echo esc_html($excerpt); ?></p>
                             <a href="<?php echo esc_url($url); ?>" class="btn btn-primary">Read more</a>
