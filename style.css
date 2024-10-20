@@ -373,20 +373,20 @@ body.blog .card-body .card-text {
 }
 
 body.blog .card-body .btn {
-  background: white;
+  background: #ff119e;
   border-radius: 4px;
-  color: #ed1590;
-  font-size: 20px;
+  color: white;
+  font-size: 18px;
   line-height: 27px;
   padding: 12px 20px;
   font-family: "Inter", sans-serif;
   border: none;
-  margin-top: 30px;
+  margin-top: 50px;
   margin-right: 30px;
   transition: 0.3s ease-in-out;
 }
 
-body.blog .card--body .btn:hover {
-  background: #ed1590;
-  color: white;
+.btn:hover {
+  background: white;
+  color: #ff119e;
 }
