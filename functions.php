@@ -9,6 +9,7 @@ function bookshop_load_resources(){
 
 add_action("wp_enqueue_scripts", "bookshop_load_resources");
 
+add_theme_support( 'post-thumbnails' );
 
 function bookshop_remove_gutenberg(){
     remove_post_type_support("page", "editor");
