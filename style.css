@@ -396,5 +396,5 @@ body.blog .img-small {
   max-width: 150px; /* Set a maximum width to match the thumbnail size */
   height: auto; /* Maintain aspect ratio */
   display: block; /* Ensures the image is treated as a block element */
-  margin: 0 auto 15px; /* Optional: centers the image horizontally and adds some spacing below */
+  margin: 20px; /* Optional: centers the image horizontally and adds some spacing below */
 }
