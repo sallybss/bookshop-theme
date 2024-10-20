@@ -1,11 +1,17 @@
 
 <?php get_header(); ?>
+
+  <?php 
+    $designhub = get_field("designhub");
+
+    ?>
+
 <div class="container">
     <!-- Design Hub Section -->
     <div class="row my-5">
         <!-- Left Column: Design Hub Title and Subtitle -->
         <div class="col d-flex flex-column align-items-center justify-content-center">
-            <h1 class="design-hub-title text-center">DESIGN HUB</h1>
+            <h1 class="design-hub-title text-center"><?php echo $designhub; ?></h1>
             <h2 class="design-hub-text text-center">Welcome to design hub</h2>
         </div>
     </div>
