@@ -350,15 +350,16 @@ hr {
 }
 
 .blog .design-hub-text {
+  margin-top: 10px;
   color: #333;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 200;
   font-style: italic;
 }
 
 body.blog .card-body {
   padding: 20px; /* Padding specifically for card body in home.php */
-  background-color: #f8f9fa;
+
   margin: 10px;
 }
 
@@ -368,5 +369,5 @@ body.blog .card-body .card-title {
 }
 
 body.blog .card-body .card-text {
-  font-size: 10px;
+  font-size: 14px;
 }
