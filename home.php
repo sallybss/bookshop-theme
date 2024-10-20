@@ -29,48 +29,16 @@
                     ?>
 
                     <!-- Post Card -->
-                    <div class="col-md-4 mb-4">
-                        <div class="card h-100">
-                            <div class="card-body">
-                                <h5 class="card-title"><?php echo esc_html($title); ?></h5>
-                                <p class="card-text"><?php echo esc_html($excerpt); ?></p>
-                                <a href="<?php echo esc_url($url); ?>" class="btn btn-primary">Read more</a>
-                            </div>
-                        </div>
-                    </div>
-
-                <?php endwhile; ?>
-            <?php endif; ?>
-        </div>
-    </div>
-
-To incorporate the Featured Image into the card design you already have, you can modify your current PHP loop to display the featured image inside the card body, above the title and excerpt. You can use the the_post_thumbnail() function to retrieve and display the featured image, and you can customize its size using WordPress-defined image sizes like 'medium', 'large', or 'thumbnail'.
-
-Here’s how you can modify your code:
-
-Updated Code to Display Featured Images in Card Body
-php
-Kodu kopyala
-<div class="content">
-    <div class="row">
-        <?php if (have_posts()): ?>
-            <?php while (have_posts()): the_post(); ?>
-                <?php
-                    $url = get_permalink();
-                    $title = get_the_title();
-                    $excerpt = get_the_excerpt();
-                ?>
-
-                <!-- Post Card -->
                 <div class="col-md-4 mb-4">
                     <div class="card h-100">
-                        <!-- Card Image (Featured Image) -->
-                        <?php if (has_post_thumbnail()) : ?>
-                            <img class="card-img-top img-fluid" src="<?php the_post_thumbnail_url('medium'); ?>" alt="<?php echo esc_attr($title); ?>">
-                        <?php endif; ?>
+                     
 
                         <div class="card-body">
                             <h5 class="card-title"><?php echo esc_html($title); ?></h5>
+                               <!-- Card Image (Featured Image) -->
+                        <?php if (has_post_thumbnail()) : ?>
+                            <img class="card-img-top img-fluid" src="<?php the_post_thumbnail_url('medium'); ?>" alt="<?php echo esc_attr($title); ?>">
+                        <?php endif; ?>
                             <p class="card-text"><?php echo esc_html($excerpt); ?></p>
                             <a href="<?php echo esc_url($url); ?>" class="btn btn-primary">Read more</a>
                         </div>
@@ -96,7 +64,6 @@ Kodu kopyala
             <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3SdukUsvVBUwzbS3Mv69TM?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         </div>
     </div>
-</div>
 </div>
 <?php get_footer(); ?>
 
