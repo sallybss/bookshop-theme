@@ -1,5 +1,28 @@
 <?php get_header() ?>
 
+<!-- Product test -->
+<?php
+$loop = new WP_Query(array(
+    'post_type' => 'product',
+    'posts_per_page' => -1
+));
+?>
+
+<?php if($loop->have_posts()): ?>
+    <?php while ($loop->have_posts()) : $loop->the_post() ?>
+
+        <?php
+        global $product;
+        $title = get_the_title();
+        $excerpt = get_the_excerpt();
+        $price = $product->get_price_html();
+        $link = get_the_permalink();
+        ?>
+
+
+
+
+
 <?php if (have_posts()): ?>
     <?php while (have_posts()): the_post(); ?>
 
@@ -77,5 +100,9 @@
 
     <?php endwhile; ?>
 <?php endif; ?>
+
+    <?php endwhile; ?>
+<?php endif; ?>
+<?php wp_reset_postdata(); ?>
 
 <?php get_footer(); ?>
