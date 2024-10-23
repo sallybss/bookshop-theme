@@ -164,6 +164,9 @@
                     </div>
                 </div>
 
+
+                <?php echo do_shortcode('[contact-form-7 id="ecacadf" title="Form"]'); ?>
+
             <?php endwhile; ?>
         <?php endif; ?>
         <?php wp_reset_postdata(); ?>
