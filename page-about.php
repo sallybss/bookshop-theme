@@ -3,32 +3,31 @@
 Template Name: About
 */
 
-get_header();
+get_header(); ?>
 
-if (have_posts()) :
-    while (have_posts()) : the_post();
+<?php if (have_posts()) : ?>
+    <?php while (have_posts()) : the_post(); ?>
 
+    <?php 
         $about_image = get_field('about_img');
         $about_text = get_field('about_text');
-        ?>
+    ?>
 
-        <div class="about-page">
-            <div class="about-content">
-                <!-- Left Column: Text -->
-                <div class="about-text">
-                    <h1><?php echo $about_text; ?></h1>
-                    <p><?php echo $about_text; ?></p>
-                </div>
+    <div class="about-page">
+        <div class="about-content">
 
-                <!-- Right Column: Image -->
-                <div class="about-image">
-                    <img src="<?php echo $about_image['url']; ?>" alt="<?php echo $about_image['alt']; ?>">
-                </div>
+            <div class="about-text">
+                <h1><?php echo esc_html(get_the_title()); ?></h1> <!-- Use the title for the headline -->
+                <p><?php echo esc_html($about_text); ?></p> <!-- Output about text safely -->
+            </div>
+
+            <div class="about-image">
+                <img src="<?php echo esc_url($about_image['url']); ?>" alt="<?php echo esc_attr($about_image['alt']); ?>"> <!-- Safe output for URL and alt attribute -->
             </div>
         </div>
+    </div>
+    
+    <?php endwhile; ?>
+<?php endif; ?>
 
-    <?php endwhile;
-endif;
-
-get_footer();
-?>
+<?php get_footer(); ?>
