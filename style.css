@@ -290,7 +290,8 @@ footer {
 
 /* Style the email input field */
 .wpcf7-form-control.wpcf7-text {
-  width: 100%; /* Ensure it fills the width of the container */
+  width: 100%;
+  /* Ensure it fills the width of the container */
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -301,13 +302,16 @@ footer {
 
 /* Placeholder color */
 .wpcf7-form-control.wpcf7-text::placeholder {
-  color: #aaa; /* Customize placeholder text color */
+  color: #aaa;
+  /* Customize placeholder text color */
 }
 
 /* On focus, change the border color for better UX */
 .wpcf7-form-control.wpcf7-text:focus {
-  border-color: #ed1590; /* Your desired focus color */
-  outline: none; /* Remove default outline */
+  border-color: #ed1590;
+  /* Your desired focus color */
+  outline: none;
+  /* Remove default outline */
 }
 
 .wpcf7-submit {
@@ -358,7 +362,8 @@ hr {
 }
 
 body.blog .card-body {
-  padding: 20px; /* Padding specifically for card body in home.php */
+  padding: 20px;
+  /* Padding specifically for card body in home.php */
 
   margin: 10px;
 }
@@ -392,11 +397,16 @@ body.blog .card-body .btn:hover {
 }
 
 body.blog .img-small {
-  width: 100%; /* Ensure the image takes the full width of the card */
-  max-height: 150px; /* Set a max height to control the image height */
-  object-fit: cover; /* Ensures the image is cropped to fit within the set dimensions while maintaining aspect ratio */
-  display: block; /* Treat the image as a block element */
-  margin: 20px 20px 20px 0; /* Add spacing around the image */
+  width: 100%;
+  /* Ensure the image takes the full width of the card */
+  max-height: 150px;
+  /* Set a max height to control the image height */
+  object-fit: cover;
+  /* Ensures the image is cropped to fit within the set dimensions while maintaining aspect ratio */
+  display: block;
+  /* Treat the image as a block element */
+  margin: 20px 20px 20px 0;
+  /* Add spacing around the image */
 }
 
 .woocommerce-section {
@@ -427,4 +437,68 @@ body.blog .img-small {
   color: #e60023;
   font-weight: bold;
   margin-bottom: 10px;
+}
+
+.about-page {
+  display: flex;
+  justify-content: center;
+  /* Centers the content horizontally */
+  align-items: center;
+  /* Aligns content vertically */
+  padding: 50px 0;
+  /* Adds some space around the section */
+}
+
+.about-content {
+  display: flex;
+  flex-direction: row;
+  /* Creates a row layout with the text on the left and image on the right */
+  max-width: 1200px;
+  /* Sets a max width for the content */
+  width: 100%;
+  /* Ensures it takes full width */
+}
+
+.about-text {
+  flex: 1;
+  /* The text takes up equal space as the image */
+  padding-right: 20px;
+  /* Adds some space between the text and image */
+}
+
+.about-image {
+  flex: 1;
+  /* The image takes up equal space as the text */
+  display: flex;
+  justify-content: center;
+  /* Centers the image horizontally */
+  align-items: center;
+  /* Centers the image vertically */
+}
+
+.about-image img {
+  max-width: 100%;
+  /* Makes sure the image scales responsively */
+  height: auto;
+  /* Keeps the aspect ratio intact */
+}
+
+@media (max-width: 768px) {
+
+  /* On smaller screens, stack the text and image vertically */
+  .about-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-text {
+    padding-right: 0;
+    /* Remove padding for better alignment */
+    margin-bottom: 20px;
+    /* Add spacing between text and image */
+  }
+
+  .about-image {
+    justify-content: center;
+  }
 }
