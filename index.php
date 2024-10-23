@@ -117,6 +117,15 @@
         <img src="<?php echo $trustpilot["url"]; ?>" alt="Trustpilot rate">
     </div>
 
+    
+    <div class="footer-column newsletter">
+    <h3><?php echo $footercol1h4; ?></h3>
+    
+    <?php echo do_shortcode('[cf7form cf7key="form"]'); ?>
+    
+</div>
+    </div>
+
     <?php endwhile; ?>
 <?php endif; ?>
 
@@ -165,7 +174,7 @@
                 </div>
 
 
-                <?php echo do_shortcode('[contact-form-7 id="ecacadf" title="Form"]'); ?>
+              
 
             <?php endwhile; ?>
         <?php endif; ?>
