@@ -96,13 +96,13 @@ $loop = new WP_Query(array(
     </div>
 
 
-
-
-    <?php endwhile; ?>
-<?php endif; ?>
-
     <?php endwhile; ?>
 <?php endif; ?>
 <?php wp_reset_postdata(); ?>
+
+    <?php endwhile; ?>
+<?php endif; ?>
+
+
 
 <?php get_footer(); ?>
