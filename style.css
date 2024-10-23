@@ -446,7 +446,6 @@ body.blog .img-small {
 .about-content {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   max-width: 1200px;
   margin: auto;
   flex-wrap: wrap;

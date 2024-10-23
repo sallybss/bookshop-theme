@@ -12,6 +12,7 @@ get_header();     ?>
     <?php 
         $about_image = get_field('about_img');
         $about_text = get_field('about_text');
+        $about_description = get_field('about_description');
         ?>
 
         <div class="about-page">
@@ -19,7 +20,7 @@ get_header();     ?>
 
                 <div class="about-text">
                     <h1><?php echo $about_text; ?></h1>
-                    <p><?php echo $about_text; ?></p>
+                    <p><?php echo $about_description; ?></p>
                 </div>
 
                 <div class="about-image">
@@ -27,6 +28,8 @@ get_header();     ?>
                 </div>
             </div>
         </div>
-        <?php endwhile; ?>
-        <?php endif; ?>
-        <?php get_footer() ?>
+     <?php endwhile; ?>
+   <?php endif; ?>
+
+
+   <?php get_footer() ?>
