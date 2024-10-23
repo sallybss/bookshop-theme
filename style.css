@@ -439,29 +439,56 @@ body.blog .img-small {
   margin-bottom: 10px;
 }
 
-.about-page .about-content {
+.about-page {
+  padding: 50px 0;
+}
+
+/* Flexbox container that holds both text and image */
+.about-content {
   display: flex;
+  justify-content: space-between;
+  /* Pushes the text and image apart */
   align-items: center;
   max-width: 1200px;
   margin: auto;
+  flex-wrap: wrap;
+  /* Allows items to stack on smaller screens */
 }
 
-.about-page .about-image img {
-  width: 80%;
-  max-width: 500px;
+/* Left Column: Text styling */
+.about-text {
+  flex: 1;
+  /* Allows the text to take more space */
+  padding-right: 20px;
+  /* Adds space between text and image */
 }
 
-.about-page .about-text {
-  max-width: 600px;
+/* Right Column: Image styling */
+.about-image {
+  flex: 1;
+  /* Allows the image to take the remaining space */
+  text-align: right;
+  /* Aligns the image to the right */
 }
 
-.about-page .about-text h1 {
+.about-image img {
+  width: 100%;
+  /* Ensures the image takes up the space within its container */
+  max-width: 400px;
+  /* Sets a max width for the image */
+  height: auto;
+  /* Maintains image proportions */
+}
+
+/* Headline styling */
+.about-text h1 {
   font-size: 32px;
   color: #333;
   margin-bottom: 20px;
 }
 
-.about-page .about-text p {
+/* Paragraph text styling */
+.about-text p {
   font-size: 18px;
   color: #555;
   line-height: 1.6;
