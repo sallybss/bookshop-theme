@@ -16,17 +16,7 @@ $loop = new WP_Query(array(
     'posts_per_page' => -1
 ));
 ?>
-<!-- Product test -->
-<?php if($loop->have_posts()): ?>
-    <?php while ($loop->have_posts()) : $loop->the_post() ?>
 
-        <?php
-        global $product;
-        $title = get_the_title();
-        $excerpt = get_the_excerpt();
-        $price = $product->get_price_html();
-        $link = get_the_permalink();
-        ?>
 
 
 
@@ -98,11 +88,6 @@ $loop = new WP_Query(array(
     <img src="<?php echo $trustpilot["url"]; ?>" alt="Trustpilot rate">
     </div>
 
-
-
-        <?php endwhile; ?>
-<?php endif; ?>
-<?php wp_reset_postdata(); ?>
 
 
     <?php endwhile; ?>
