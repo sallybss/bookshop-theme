@@ -176,12 +176,10 @@
     </div>
 </div>
 
-<div class="footer-column newsletter">
-    <h3><?php echo $footercol1h4; ?></h3>
-    
-    <?php echo do_shortcode('[cf7form cf7key="form"]'); ?>
-    
+<div class="form">
+    <?php echo do_shortcode('[cf7form cf7key="form"]'); ?>  
 </div>
+
     </div>
 
 <?php get_footer() ?>
