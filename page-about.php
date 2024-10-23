@@ -1,10 +1,10 @@
 <?php
 /*
-Template Name: About Page
+Template Name: About
 */
 
 get_header();
-HELLO WOOOOOOOOOOORLLD
+
 if (have_posts()) :
     while (have_posts()) : the_post();
 
