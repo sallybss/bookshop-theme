@@ -14,13 +14,17 @@ if (have_posts()) :
 
         <div class="about-page">
             <div class="about-content">
+                
                 <div class="about-text">
                     <h1><?php echo $about_text; ?></h1>
                     <p><?php echo $about_text; ?></p>
                 </div>
+
+
                 <div class="about-image">
                     <img src="<?php echo $about_image['url']; ?>" alt="<?php echo $about_image['alt']; ?>" class="about-image">
                 </div>
+
             </div>
         </div>
 

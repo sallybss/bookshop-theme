@@ -439,66 +439,30 @@ body.blog .img-small {
   margin-bottom: 10px;
 }
 
-.about-page {
+.about-page .about-content {
   display: flex;
-  justify-content: center;
-  /* Centers the content horizontally */
   align-items: center;
-  /* Aligns content vertically */
-  padding: 50px 0;
-  /* Adds some space around the section */
-}
-
-.about-content {
-  display: flex;
-  flex-direction: row;
-  /* Creates a row layout with the text on the left and image on the right */
   max-width: 1200px;
-  /* Sets a max width for the content */
-  width: 100%;
-  /* Ensures it takes full width */
+  margin: auto;
 }
 
-.about-text {
-  flex: 1;
-  /* The text takes up equal space as the image */
-  padding-right: 20px;
-  /* Adds some space between the text and image */
+.about-page .about-image img {
+  width: 80%;
+  max-width: 500px;
 }
 
-.about-image {
-  flex: 1;
-  /* The image takes up equal space as the text */
-  display: flex;
-  justify-content: center;
-  /* Centers the image horizontally */
-  align-items: center;
-  /* Centers the image vertically */
+.about-page .about-text {
+  max-width: 600px;
 }
 
-.about-image img {
-  max-width: 100%;
-  /* Makes sure the image scales responsively */
-  height: auto;
-  /* Keeps the aspect ratio intact */
+.about-page .about-text h1 {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 20px;
 }
 
-@media (max-width: 768px) {
-
-  /* On smaller screens, stack the text and image vertically */
-  .about-content {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .about-text {
-    padding-right: 0;
-    /* Remove padding for better alignment */
-    margin-bottom: 20px;
-    /* Add spacing between text and image */
-  }
-
-  .about-image {
-    justify-content: center;
-  }
+.about-page .about-text p {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.6;
 }
