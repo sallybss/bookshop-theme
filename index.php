@@ -118,13 +118,7 @@
     </div>
 
     
-    <div class="footer-column newsletter">
-    <h3><?php echo $footercol1h4; ?></h3>
-    
-    <?php echo do_shortcode('[cf7form cf7key="form"]'); ?>
-    
-</div>
-    </div>
+   
 
     <?php endwhile; ?>
 <?php endif; ?>
@@ -182,5 +176,12 @@
     </div>
 </div>
 
+<div class="footer-column newsletter">
+    <h3><?php echo $footercol1h4; ?></h3>
+    
+    <?php echo do_shortcode('[cf7form cf7key="form"]'); ?>
+    
+</div>
+    </div>
 
 <?php get_footer() ?>
