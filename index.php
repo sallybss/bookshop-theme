@@ -1,13 +1,22 @@
 <?php get_header() ?>
 
-<!-- Product test -->
+
+
+
+
+
+
+
+<?php if (have_posts()): ?>
+    <?php while (have_posts()): the_post(); ?>
+
 <?php
 $loop = new WP_Query(array(
     'post_type' => 'product',
     'posts_per_page' => -1
 ));
 ?>
-
+<!-- Product test -->
 <?php if($loop->have_posts()): ?>
     <?php while ($loop->have_posts()) : $loop->the_post() ?>
 
@@ -19,12 +28,6 @@ $loop = new WP_Query(array(
         $link = get_the_permalink();
         ?>
 
-
-
-
-
-<?php if (have_posts()): ?>
-    <?php while (have_posts()): the_post(); ?>
 
 
     <?php 
@@ -96,9 +99,11 @@ $loop = new WP_Query(array(
     </div>
 
 
-    <?php endwhile; ?>
+
+        <?php endwhile; ?>
 <?php endif; ?>
 <?php wp_reset_postdata(); ?>
+
 
     <?php endwhile; ?>
 <?php endif; ?>
