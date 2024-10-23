@@ -71,9 +71,9 @@
 <?php endif; ?>
 
 <!-- WooCommerce Product Loop Section -->
-<div class="woocommerce-section">
-    <h2>Our Book Collection</h2>
-    <div class="products-wrapper">
+<div class="container-fluid woocommerce-section">
+    <h2 class="text-center mb-4">Our Book Collection</h2>
+    <div class="row justify-content-center">
         <?php
         $loop = new WP_Query(array(
             'post_type' => 'product',
@@ -93,13 +93,18 @@
                 $image = get_the_post_thumbnail_url($product->get_id(), 'medium');
                 ?>
 
-                <div class="product-card">
-                    <a href="<?php echo $link; ?>">
-                        <img src="<?php echo $image; ?>" alt="<?php echo $title; ?>" class="product-image">
-                        <h3 class="product-title"><?php echo $title; ?></h3>
-                        <p class="product-price"><?php echo $price; ?></p>
-                        <p class="product-excerpt"><?php echo $excerpt; ?></p>
-                    </a>
+                <div class="col-lg-auto col-md-6 col-sm-12 d-flex align-items-stretch">
+                    <div class="card product-card" style="width: 18rem;">
+                        <a href="<?php echo $link; ?>">
+                            <img src="<?php echo $image; ?>" alt="<?php echo $title; ?>" class="card-img-top product-image">
+                        </a>
+                        <div class="card-body text-center">
+                            <h5 class="card-title"><?php echo $title; ?></h5>
+                            <p class="card-text product-price"><?php echo $price; ?></p>
+                            <p class="card-text product-excerpt"><?php echo $excerpt; ?></p>
+                            <a href="<?php echo $link; ?>" class="btn btn-primary">View Product</a>
+                        </div>
+                    </div>
                 </div>
 
             <?php endwhile; ?>
@@ -107,5 +112,6 @@
         <?php wp_reset_postdata(); ?>
     </div>
 </div>
+
 
 <?php get_footer() ?>
