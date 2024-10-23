@@ -29,7 +29,7 @@
 
     <!-- WooCommerce Product Loop Section -->
 <div class="container-fluid woocommerce-section">
-    <h2 class="text-center mb-4">Our Book Collection</h2>
+    <h2 class="text-center mb-4">NEW RELEASES</h2>
     <div class="row justify-content-center">
         <?php
         $loop = new WP_Query(array(
@@ -39,7 +39,7 @@
                     array(
                         'taxonomy' => 'product_cat',
                         'field' => 'slug',
-                        'terms' => "new-releases	",
+                        'terms' => "new-releases",
                     ),
                 ),
         ));
@@ -65,7 +65,7 @@
                         <div class="card-body text-center">
                             <h5 class="card-title"><?php echo $title; ?></h5>
                             <p class="card-text product-price"><?php echo $price; ?></p>
-                            <p class="card-text product-excerpt"><?php echo $excerpt; ?></p>
+                            
                             <a href="<?php echo $link; ?>" class="btn btn-primary">View Product</a>
                         </div>
                     </div>
