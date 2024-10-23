@@ -76,8 +76,15 @@
     <div class="row justify-content-center">
         <?php
         $loop = new WP_Query(array(
-            'post_type' => 'product',
-            'posts_per_page' => 4
+                'post_type' => 'product',
+                'posts_per_page' => 4, // Change this to set a specific number of products
+                'tax_query' => array(
+                    array(
+                        'taxonomy' => 'product_cat',
+                        'field' => 'slug',
+                        'terms' => "architecture",
+                    ),
+                ),
         ));
         ?>
 
