@@ -479,15 +479,12 @@ body.blog .img-small {
   line-height: 1.6;
 }
 
-
-/* Centering the form */
 .form-container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   background-color: #f4f4f4;
-  /* Optional background color for the section */
 }
 
 .form {
@@ -499,7 +496,6 @@ body.blog .img-small {
   width: 100%;
 }
 
-/* Styling input fields */
 input[type="text"],
 input[type="email"],
 textarea {
@@ -520,7 +516,6 @@ textarea:focus {
   outline: none;
 }
 
-/* Button styling */
 input[type="submit"] {
   width: 100%;
   padding: 15px;

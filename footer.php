@@ -15,6 +15,9 @@ $about = get_field("about");
 ?>
 
 <footer>
+
+<hr>
+
     <div class="footer-container">
         <div class="footer-column connect">
             <h3><?php echo $footercol1h1; ?></h3>
@@ -37,7 +40,7 @@ $about = get_field("about");
             <ul>
             <li><a href="<?php echo $address; ?>" target="_blank"> <?php echo  $location; ?></a></li>
 
-            </ul>
+            </ul>       
         </div>
 
         <div class="footer-column newsletter">
