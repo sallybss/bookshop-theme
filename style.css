@@ -516,7 +516,7 @@ textarea:focus {
   outline: none;
 }
 
-input[type="submit"] {
+/* input[type="submit"] {
   width: 100%;
   padding: 15px;
   background-color: #ed1590;
@@ -527,7 +527,7 @@ input[type="submit"] {
   font-weight: bold;
   cursor: pointer;
   transition: background-color 0.3s ease;
-}
+} */
 
 input[type="submit"]:hover {
   background-color: #333;
