@@ -100,6 +100,56 @@
         </div>
     </div>
 
+    <!-- WooCommerce Product Loop Section -->
+<div class="container-fluid woocommerce-section">
+    <h2 class="text-center mb-4"> STUDENT DISCOUNTS</h2>
+    <div class="row justify-content-center">
+        <?php
+        $loop = new WP_Query(array(
+                'post_type' => 'product',
+                'posts_per_page' => 4, // Change this to set a specific number of products
+                'tax_query' => array(
+                    array(
+                        'taxonomy' => 'product_cat',
+                        'field' => 'slug',
+                        'terms' => "new-releases",
+                    ),
+                ),
+        ));
+        ?>
+
+        <?php if($loop->have_posts()): ?>
+            <?php while ($loop->have_posts()) : $loop->the_post(); ?>
+
+                <?php
+                global $product;
+                $title = get_the_title();
+                $excerpt = get_the_excerpt();
+                $price = $product->get_price_html();
+                $link = get_the_permalink();
+                $image = get_the_post_thumbnail_url($product->get_id(), 'medium');
+                ?>
+
+                <div class="col-lg-auto col-md-6 col-sm-12 d-flex align-items-stretch">
+                    <div class="card product-card" style="width: 18rem;">
+                        <a href="<?php echo $link; ?>">
+                            <img src="<?php echo $image; ?>" alt="<?php echo $title; ?>" class="card-img-top product-image">
+                        </a>
+                        <div class="card-body text-center">
+                            <h5 class="card-title"><?php echo $title; ?></h5>
+                            <p class="card-text product-price"><?php echo $price; ?></p>
+                            
+                            <a href="<?php echo $link; ?>" class="btn btn-primary">View Product</a>
+                        </div>
+                    </div>
+                </div>
+
+            <?php endwhile; ?>
+        <?php endif; ?>
+        <?php wp_reset_postdata(); ?>
+    </div>
+</div>
+
     <div class="pink-section">
         <div class="content-pink">
             <div class="image">
