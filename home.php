@@ -29,6 +29,9 @@
                         $url = get_permalink();
                         $title = get_the_title();
                         $excerpt = get_the_excerpt();
+                        $date = get_the_date();
+                        $author = get_the_author ();
+                    
                     ?>
 
                     <!-- Post Card -->
