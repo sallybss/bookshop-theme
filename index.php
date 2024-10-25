@@ -112,7 +112,7 @@
                     array(
                         'taxonomy' => 'product_cat',
                         'field' => 'slug',
-                        'terms' => "new-releases",
+                        'terms' => "students",
                     ),
                 ),
         ));
