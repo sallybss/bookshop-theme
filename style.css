@@ -196,9 +196,10 @@ a:hover {
 }
 
 .pink-section .text p {
-  font-size: 24px;
+  font-size: 16px;
   color: #fff;
   margin-bottom: 40px;
+  font-weight: 400;
 }
 
 .pink-section .text button {
