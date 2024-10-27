@@ -556,7 +556,7 @@ label {
 .btn {
   display: block;
   width: 80%;
-  margin: 0 auto;
+
   position: absolute; /* Positioning the button at the bottom */
   left: 50%;
   transform: translateX(-50%);
@@ -570,5 +570,5 @@ label {
   border: none;
   border-radius: 25px;
   transition: background-color 0.3s ease, transform 0.3s ease;
-  margin-top: 20px;
+  margin-top: 50px;
 }
