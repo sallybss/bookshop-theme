@@ -27,14 +27,6 @@ get_header();     ?>
                     <img src="<?php echo $about_image['url']; ?>" alt="<?php echo $about_image['alt']; ?>">
                 </div>
 
-
-                <div class="form-container">
-                    <div class="form">
-                       <?php echo do_shortcode('[contact-form-7 id="ecacadf" title="Form"]'); ?>  
-                 </div>
-</div>
-
-
             </div>
 
         </div>
