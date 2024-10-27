@@ -215,10 +215,7 @@
                             <a href="<?php echo $link; ?>" class="btn btn-primary">View Product</a>
                         </div>
                     </div>
-                </div>
-
-
-              
+                </div>  
 
             <?php endwhile; ?>
         <?php endif; ?>

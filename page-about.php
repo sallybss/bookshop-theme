@@ -29,9 +29,9 @@ get_header();     ?>
 
 
                 <div class="form-container">
-    <div class="form">
-        <?php echo do_shortcode('[cf7form cf7key="form"]'); ?>  
-    </div>
+                    <div class="form">
+                       <?php echo do_shortcode('[contact-form-7 id="ecacadf" title="Form"]'); ?>  
+                 </div>
 </div>
 
 
