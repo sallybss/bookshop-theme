@@ -226,11 +226,7 @@
     </div>
 </div>
 
-<div class="form-container">
-    <div class="form">
-        <?php echo do_shortcode('[cf7form cf7key="form"]'); ?>  
-    </div>
-</div>
+
 
     </div>
 
