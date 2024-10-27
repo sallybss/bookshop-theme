@@ -175,7 +175,7 @@
 
 <!-- WooCommerce Product Loop Section -->
 <div class="container-fluid woocommerce-section">
-    <h2 class="text-center mb-4">Our Book Collection</h2>
+    <h2 class="text-center mb-4">Architecture</h2>
     <div class="row justify-content-center">
         <?php
         $loop = new WP_Query(array(
