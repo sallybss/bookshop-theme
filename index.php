@@ -54,7 +54,7 @@
                 $excerpt = get_the_excerpt();
                 $price = $product->get_price_html();
                 $link = get_the_permalink();
-                $image = get_the_post_thumbnail_url($product->get_id(), 'medium');
+                $image = get_the_post_thumbnail_url($product->get_id(), 'thumbnail');
                 ?>
 
                 <div class="col-lg-auto col-md-6 col-sm-12 d-flex align-items-stretch">
