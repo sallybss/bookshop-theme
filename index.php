@@ -20,7 +20,7 @@
     $btntext = get_field("button_text");
     ?>
 
-    <img src="<?php echo $heroimage["url"]; ?>" alt="" class="hero" >
+    <img src="<?php echo $heroimage["url"]; ?>" alt="bookstore image" class="hero" >
 
     <div class="text-hero">
         <h1><?php echo $herotext; ?></h1>
