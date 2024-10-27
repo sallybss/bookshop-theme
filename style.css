@@ -450,7 +450,7 @@ body.blog .img-small {
 .product-price {
   color: #9d006b;
   font-weight: 500;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .about-page {
@@ -554,20 +554,15 @@ label {
 
 /* woocommerce styling*/
 .btn {
-  display: block;
-  width: 80%;
-  margin: 0 auto;
-  position: absolute; /* Positioning the button at the bottom */
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 20px;
-  padding: 10px 20px;
-  background-color: #ed1590; /* Bright color to stand out */
-  color: #ffffff;
-  font-size: 1em;
-  text-align: center;
-  text-transform: uppercase;
+  background: #ff119e;
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 12px 20px;
+  font-family: "Inter", sans-serif;
   border: none;
-  border-radius: 25px;
-  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-top: 50px;
+  margin-right: 30px;
+  transition: 0.3s ease-in-out;
 }
