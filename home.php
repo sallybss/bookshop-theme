@@ -13,13 +13,7 @@
         </div>
     </div>
 
-    <!-- Hero Image -->
-    <div class="row mb-5">
-        <div class="col d-flex justify-content-center">
-            <img src="hero2.jpeg" alt="Hero Image" class="img-fluid">
-        </div>
-    </div>
-
+ 
     <!-- Content Section -->
     <div class="content">
         <div class="row">
