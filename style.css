@@ -570,4 +570,5 @@ label {
   border: none;
   border-radius: 25px;
   transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-top: 20px;
 }
