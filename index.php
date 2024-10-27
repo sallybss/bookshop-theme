@@ -215,10 +215,7 @@
                             <a href="<?php echo $link; ?>" class="btn btn-primary">View Product</a>
                         </div>
                     </div>
-                </div>
-
-
-              
+                </div>  
 
             <?php endwhile; ?>
         <?php endif; ?>
@@ -226,11 +223,7 @@
     </div>
 </div>
 
-<div class="form-container">
-    <div class="form">
-        <?php echo do_shortcode('[cf7form cf7key="form"]'); ?>  
-    </div>
-</div>
+
 
     </div>
 

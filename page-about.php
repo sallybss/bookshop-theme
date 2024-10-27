@@ -26,7 +26,9 @@ get_header();     ?>
                 <div class="about-image">
                     <img src="<?php echo $about_image['url']; ?>" alt="<?php echo $about_image['alt']; ?>">
                 </div>
+
             </div>
+
         </div>
      <?php endwhile; ?>
    <?php endif; ?>
