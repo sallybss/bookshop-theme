@@ -46,6 +46,7 @@
                 </div>
 
             <?php endwhile; ?>
+            <?php echo paginate_links() ?>
         <?php endif; ?>
     </div>
 </div>
